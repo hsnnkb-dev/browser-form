@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+    <title>Browser Form</title>
+</head>
+<body>
+    <header>
+        <h1>Client-side validation Form</h1>
+    </header>
+    <main class="main">
+        <form action="#" method="post">
+        <legend>Form</legend>
+        <div class="form-group">
+            <label for="email">EMAIL</label>
+            <input name="email" type="email" placeholder="janedoe@example.com" id="email"/>
+        </div>
+        <div class="form-group">
+            <label for="country">COUNTRY</label>
+            <input name="country" type="text" placeholder="United Kingdom" id="country"/>
+        </div>
+        <div class="form-group">
+            <label for="postcode">POSTCODE</label>
+            <input name="postcode" type="text" placeholder="LS1 1EE" id="postcode"/>
+        </div>
+        <div class="form-group">
+            <label for="password">PASSWORD</label>
+            <input name="password" type="password" id="password">
+        </div>
+        <div class="form-group">
+            <label for="confirm-password">CONFIRM PASSWORD</label>
+            <input name="confirm-password" type="password" id="confirm-password">
+        </div>
+        <button>Submit</button>
+        </form>
+    </main>
+</body>
+</html>
